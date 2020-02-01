@@ -218,7 +218,7 @@ button:focus {
 /*--------------------*/
 
 #mu-header {
-	background-image: url("assets/images/header-bg.jpg");
+	background-image: url("assets/images/Geekshacking/community.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -229,11 +229,16 @@ button:focus {
 .mu-header-overlay {
 	display: inline;
 	float: left;
-	opacity: 0.8;
+	/* opacity: 0.8; */
 	width: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
 }
 
 .mu-logo-area {
+	/* position: fixed;
+	left: 15%;
+	z-index: 100; */
+
 	display: inline;
 	float: left;
 	width: 100%;
@@ -245,6 +250,11 @@ button:focus {
 	display: inline-block;
 	font-weight: 700;
 	margin-top: 35px;
+}
+
+.mu-logo img {
+	display: block;
+	height: 44px;
 }
 
 .mu-logo:hover,
@@ -297,7 +307,7 @@ button:focus {
 
 .mu-header-featured-content h1 {
 	font-size: 45px;
-	color: black;
+	color: white;
 	font-weight: 300;
 	margin-bottom: 15px;
 }
@@ -307,7 +317,7 @@ button:focus {
 }
 
 .mu-header-featured-content p {
-	color: black;
+	color: white;
 }
 
 .mu-app-download-area {
@@ -318,7 +328,7 @@ button:focus {
 }
 
 .mu-app-download-area h4 {
-	color: black;
+	color: white;
 	font-size: 18px;
 	font-weight: 300;
 	margin-bottom: 20px;
@@ -327,9 +337,9 @@ button:focus {
 .mu-apple-btn,
 .mu-google-btn,
 .mu-windows-btn {
-	border: 2px solid black;
+	border: 2px solid white;
     border-radius: 50px;
-    color: black;
+    color: white;
     display: inline-block;
     margin: 0 10px;
     padding: 11px 22px;
@@ -637,7 +647,7 @@ button:focus {
 	width: 100%;
 }
 
-.mu-video-area h2 {
+.mu-video-area h2, .mu-video-area p {
 	color: black;
 }
 
@@ -734,8 +744,20 @@ button:focus {
 	display: block;
 }
 
-.mu-video-iframe-area iframe {
+.mu-aspect-ratio {
+	position: relative;
+	width: 100%;
+	height: 0; 
+	padding-bottom: 51%;
+	margin: 100px 0px;	  
 
+}
+
+.mu-aspect-ratio iframe {
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+ 	left: 0; top: 0;
 }
 
 
@@ -796,7 +818,7 @@ button:focus {
 /*--------------------*/
 
 #mu-download {
-	background-image: url("assets/images/download-bg.jpeg");
+	background-image: url("assets/images/Geekshacking/community.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
