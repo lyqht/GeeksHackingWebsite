@@ -145,7 +145,28 @@
 		  ]
 		});
 
-
+		$('.mu-sponsor-logos-slider').slick({
+		  slidesToShow: 6,
+		  autoplay: true,
+		  autoplaySpeed: 1000,
+		  arrows: false,
+		  responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        arrows: true,
+		        slidesToShow: 3
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        arrows: true,
+		        slidesToShow: 1
+		      }
+		    }
+		  ]
+		});
 
 	/* ----------------------------------------------------------- */
 	/*  5. BOOTSTRAP ACCORDION 

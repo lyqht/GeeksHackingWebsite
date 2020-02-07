@@ -249,12 +249,14 @@ button:focus {
 	font-size: 45px;
 	display: inline-block;
 	font-weight: 700;
-	margin-top: 35px;
+	/* margin-top: 35px; */
+	width: 100%;
+	height: 100%;
 }
 
 .mu-logo img {
 	display: block;
-	height: 44px;
+	height: 100%;
 }
 
 .mu-logo:hover,
@@ -281,6 +283,16 @@ button:focus {
 	border: 2px solid black;
 }
 
+.mu-logo-icon {
+	position: fixed;
+	left: 15%;
+	top: 50px;
+	width: 64px;
+	height: 64px;
+	background: transparent;
+	z-index: 999;
+}
+
 
 
 /*=== Featured section ===*/
@@ -288,7 +300,7 @@ button:focus {
 .mu-header-featured-area {
 	display: inline;
 	float: left;
-	padding: 50px 0;
+	padding: 100px 0;
 	width: 100%;
 }
 
@@ -334,6 +346,7 @@ button:focus {
 	margin-bottom: 20px;
 }
 
+.mu-hackomania-btn,
 .mu-apple-btn,
 .mu-google-btn,
 .mu-windows-btn {
@@ -349,6 +362,12 @@ button:focus {
     transition: all 0.5s;
 }
 
+.mu-hackomania-btn {
+	border: 2px solid black;
+    color: black;
+}
+
+.mu-hackomania-btn:hover,
 .mu-apple-btn:hover,
 .mu-google-btn:hover,
 .mu-windows-btn:hover,
@@ -750,7 +769,6 @@ button:focus {
 	height: 0; 
 	padding-bottom: 51%;
 	margin: 100px 0px;	  
-
 }
 
 .mu-aspect-ratio iframe {
@@ -813,12 +831,60 @@ button:focus {
 }
 
 
+
+/*--------------------*/
+/* SPONSOR LOGOS */
+/*--------------------*/
+
+
+#mu-sponsor-logos {
+	background-color: white;
+	display: inline;
+	float: left;
+	width: 100%;
+}
+
+#mu-sponsor-logos * {
+	color: black;
+}
+
+#mu-sponsor-logos .mu-title-dot, 
+#mu-sponsor-logos .mu-title-dot::before, 
+#mu-sponsor-logos .mu-title-dot::after {
+	background-color: black;
+}
+
+.mu-sponsor-logos-area {
+	display: inline;
+	float: left;
+	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-sponsor-logos-content {
+	display: inline;
+	float: left;
+	margin-top: 50px;
+	width: 100%;
+}
+
+.mu-sponsor-logos-slider {
+
+}
+
+.mu-sponsor-logo {
+	padding: 0 10px;
+	outline: none;
+	-webkit-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
 /*--------------------*/
 /* DOWNLOAD */
 /*--------------------*/
 
 #mu-download {
-	background-image: url("assets/images/Geekshacking/community.jpg");
+	background-image: url("assets/images/Geekshacking/hackomania_blur.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -998,7 +1064,8 @@ button:focus {
 }
 
 .mu-contact-form .form-group input {
-	background: transparent;
+	/* background: transparent; */
+	background-color: black;
 	border-radius: 10px;
 	color: white;
 	font-size: 15px;
@@ -1008,7 +1075,8 @@ button:focus {
 }
 
 .mu-contact-form .form-group textarea {
-	background: transparent;
+	/* background: transparent; */
+	background-color: black;
 	border: 1px solid #888;
 	border-radius: 10px;
 	color: white;
@@ -1204,6 +1272,9 @@ button:focus {
 		right: 5%;
 	}
 
+	.mu-logo-icon {
+		left: 5%;
+	}
 	.mu-apps-screenshot-slider .slick-next {
 		right: 0;
 	}
@@ -1249,15 +1320,12 @@ button:focus {
 		padding: 5px 12px;
 	}
 
-	.mu-logo {
-		margin-top: 25px;
+	.mu-logo-icon {
+		top: 44px;
+		font-size: 20px;
+		/* padding: 5px 12px; */
 	}
 
-	.mu-logo img {
-		width: 200px;
-	}
-		
-		
 }
 
 
