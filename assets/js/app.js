@@ -17,8 +17,9 @@ $(function() {
 		// Submit the form using AJAX.
 		$.ajax({
 			type: 'POST',
+			headers: {"Access-Control-Allow-Origin": "*"},
 			url: $(form).attr('action'),
-			data: formData
+			data: formData,
 		})
 		.done(function(response) {
 			// Make sure that the formMessages div has the 'success' class.
