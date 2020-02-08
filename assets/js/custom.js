@@ -127,6 +127,8 @@
 
 		$('.mu-apps-screenshot-slider').slick({
 		  slidesToShow: 4,
+		  autoplay: true,
+		  autoplaySpeed: 1000,
 		  responsive: [
 		    {
 		      breakpoint: 768,
@@ -145,7 +147,28 @@
 		  ]
 		});
 
-
+		$('.mu-sponsor-logos-slider').slick({
+		  slidesToShow: 6,
+		  autoplay: true,
+		  autoplaySpeed: 1000,
+		  arrows: false,
+		  responsive: [
+		    {
+		      breakpoint: 768,
+		      settings: {
+		        arrows: false,
+		        slidesToShow: 3
+		      }
+		    },
+		    {
+		      breakpoint: 480,
+		      settings: {
+		        arrows: false,
+		        slidesToShow: 1
+		      }
+		    }
+		  ]
+		});
 
 	/* ----------------------------------------------------------- */
 	/*  5. BOOTSTRAP ACCORDION 
