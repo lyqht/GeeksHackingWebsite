@@ -127,6 +127,8 @@
 
 		$('.mu-apps-screenshot-slider').slick({
 		  slidesToShow: 4,
+		  autoplay: true,
+		  autoplaySpeed: 1000,
 		  responsive: [
 		    {
 		      breakpoint: 768,
