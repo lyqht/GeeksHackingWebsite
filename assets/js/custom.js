@@ -154,14 +154,14 @@
 		    {
 		      breakpoint: 768,
 		      settings: {
-		        arrows: true,
+		        arrows: false,
 		        slidesToShow: 3
 		      }
 		    },
 		    {
 		      breakpoint: 480,
 		      settings: {
-		        arrows: true,
+		        arrows: false,
 		        slidesToShow: 1
 		      }
 		    }
