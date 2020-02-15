@@ -1,10 +1,10 @@
 A quick list of things we need to work on.
 1. Form needs to be fixed
-2. Sponsor logos sizing need to be better
-3. Web visuals need to look better. Reducing spacing. 
+=== 2. Sponsor logos sizing need to be better
+=== 3. Web visuals need to look better. Reducing spacing. 
 === 4. Side Menu needs to be linked properly
 5. Code needs to be tidied up, alot of comments and unused code
-6. Physical size of pictures need to be reduced. Causing lag.
+=== 6. Physical size of pictures need to be reduced. Causing lag.
 7. Field to joining mailing list
-8. Mobile links seems to give problems
+=== 8. Mobile links seems to give problems
 9. Website doesn't say we are GeeksHacking Community anywhere!

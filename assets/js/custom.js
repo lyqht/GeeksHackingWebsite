@@ -129,18 +129,20 @@
 		  slidesToShow: 4,
 		  autoplay: true,
 		  autoplaySpeed: 1000,
+		  arrows: false,
+		  swipeToSlide: true,
 		  responsive: [
 		    {
 		      breakpoint: 768,
 		      settings: {
-		        arrows: true,
+		        arrows: false,
 		        slidesToShow: 3
 		      }
 		    },
 		    {
 		      breakpoint: 480,
 		      settings: {
-		        arrows: true,
+		        arrows: false,
 		        slidesToShow: 1
 		      }
 		    }
@@ -148,10 +150,11 @@
 		});
 
 		$('.mu-sponsor-logos-slider').slick({
-		  slidesToShow: 6,
-		  autoplay: false,
-		  autoplaySpeed: 1000,
+		  slidesToShow: 4,
+		//   autoplay: true,
+		  autoplaySpeed: 100,
 		  arrows: false,
+		  swipeToSlide: true,
 		  responsive: [
 		    {
 		      breakpoint: 768,
