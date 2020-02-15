@@ -470,8 +470,8 @@ button:focus {
 	position: fixed;
 	right: 0;
 	text-align: center;
-	top: 0;
-	visibility: hidden;
+    top: 0;
+    display: none;
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -480,14 +480,14 @@ button:focus {
 }
 
 .mu-menu-full-overlay-show {
-	visibility: visible;
+    display: inline;
 }
 
 .mu-menu-full-overlay-inner {
 	display: inline;
 	float: left;
 	padding: 12% 15%;	
-	width: 100%;
+    width: 100%;
 }
 
 .mu-menu ul li {
