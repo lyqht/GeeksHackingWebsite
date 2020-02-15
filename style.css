@@ -876,7 +876,7 @@ button:focus {
 }
 
 .mu-sponsor-logo {
-	padding: 0 10px;
+	padding: 0 25px;
 	outline: none;
 	-webkit-transition: all 0.3s ease 0s;
 	transition: all 0.3s ease 0s;

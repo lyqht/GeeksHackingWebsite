@@ -151,8 +151,8 @@
 
 		$('.mu-sponsor-logos-slider').slick({
 		  slidesToShow: 6,
-		  autoplay: true,
-		  autoplaySpeed: 1000,
+		//   autoplay: true,
+		  autoplaySpeed: 100,
 		  arrows: false,
 		  swipeToSlide: true,
 		  responsive: [
