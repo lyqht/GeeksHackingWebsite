@@ -848,6 +848,10 @@ button:focus {
 	color: black;
 }
 
+#mu-sponsor-logos img {
+	margin: auto;
+}
+
 #mu-sponsor-logos .mu-title-dot, 
 #mu-sponsor-logos .mu-title-dot::before, 
 #mu-sponsor-logos .mu-title-dot::after {
