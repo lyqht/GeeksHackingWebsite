@@ -1,6 +1,6 @@
 A quick list of things we need to work on.
 1. Form needs to be fixed
-2. Sponsor logos sizing need to be better
+=== 2. Sponsor logos sizing need to be better
 3. Web visuals need to look better. Reducing spacing. 
 === 4. Side Menu needs to be linked properly
 5. Code needs to be tidied up, alot of comments and unused code

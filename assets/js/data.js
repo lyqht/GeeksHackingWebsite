@@ -65,27 +65,27 @@ var data = {
             name: "hackomania 2017",
             photos: 0,
             description: ""
-        },
-        {
-            name: "C++",
-            photos: 0,
-            description: ""
-        },
-        {
-            name: "css",
-            photos: 9,
-            description: ""
-        },
-        {
-            name: "3D Printing",
-            photos: 0,
-            description: ""
-        },
-        {
-            name: "Javascript",
-            photos: 0,
-            description: ""
         }
+        // {
+        //     name: "C++",
+        //     photos: 0,
+        //     description: ""
+        // },
+        // {
+        //     name: "css",
+        //     photos: 9,
+        //     description: ""
+        // },
+        // {
+        //     name: "3D Printing",
+        //     photos: 0,
+        //     description: ""
+        // },
+        // {
+        //     name: "Javascript",
+        //     photos: 0,
+        //     description: ""
+        // }
     ]
 }
 

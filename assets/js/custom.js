@@ -130,6 +130,7 @@
 		  autoplay: true,
 		  autoplaySpeed: 1000,
 		  arrows: false,
+		  swipeToSlide: true,
 		  responsive: [
 		    {
 		      breakpoint: 768,
@@ -153,6 +154,7 @@
 		  autoplay: true,
 		  autoplaySpeed: 1000,
 		  arrows: false,
+		  swipeToSlide: true,
 		  responsive: [
 		    {
 		      breakpoint: 768,
