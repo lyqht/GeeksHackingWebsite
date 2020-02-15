@@ -133,9 +133,9 @@ if (!window.mobilecheck) {
     albumLink.href = "https://m.facebook.com/groups/198416867192349?view=photos&refid=18";
 }
 
-var logos = document.getElementsByClassName("mu-sponsor-logo");
+// var logos = document.getElementsByClassName("mu-sponsor-logo");
 
-Array.prototype.forEach.call(logos, function(logo) {
-    // Do stuff here
-    console.log(logo.getElementsByTagName("img")[0].src);
-});
+// Array.prototype.forEach.call(logos, function(logo) {
+//     // Do stuff here
+//     console.log(logo.getElementsByTagName("img")[0]["data-src"]);
+// });
