@@ -128,9 +128,14 @@ slider.innerHTML = content;
 var videoFrame = document.getElementsByClassName("mu-video-iframe")[0];
 videoFrame.src = data.video;
 
-
-{/* <div class="mu-contact-right-single"></div> */}
 var albumLink = document.getElementById("mu-album-link");
 if (!window.mobilecheck) {
     albumLink.href = "https://m.facebook.com/groups/198416867192349?view=photos&refid=18";
 }
+
+var logos = document.getElementsByClassName("mu-sponsor-logo");
+
+Array.prototype.forEach.call(logos, function(logo) {
+    // Do stuff here
+    console.log(logo.getElementsByTagName("img")[0].src);
+});
