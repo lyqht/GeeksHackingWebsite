@@ -872,6 +872,7 @@ button:focus {
 }
 
 .mu-sponsor-logos-slider {
+	transition: height 100ms;
 
 }
 
