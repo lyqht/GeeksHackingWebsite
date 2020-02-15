@@ -286,9 +286,9 @@ button:focus {
 .mu-logo-icon {
 	position: fixed;
 	left: 15%;
-	top: 50px;
-	width: 64px;
-	height: 64px;
+	top: 10px;
+	width: 136.5px;
+	height: 130.8px;
 	background: transparent;
 	z-index: 999;
 }
@@ -1233,7 +1233,14 @@ button:focus {
 		padding: 0;
 	}
 
-	
+	.mu-logo-icon {
+		left: 5%;
+		top: 5%;
+		width: 25%;
+		height: 7%;
+		background: transparent;
+		z-index: 999;
+	}
 }
 
 @media (max-width: 991px) {	
@@ -1285,6 +1292,7 @@ button:focus {
 	}
 
 	.mu-logo-icon {
+		top: 5%;
 		left: 5%;
 	}
 	.mu-apps-screenshot-slider .slick-next {
