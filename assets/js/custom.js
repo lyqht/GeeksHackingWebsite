@@ -150,7 +150,7 @@
 		});
 
 		$('.mu-sponsor-logos-slider').slick({
-		  slidesToShow: 6,
+		  slidesToShow: 4,
 		//   autoplay: true,
 		  autoplaySpeed: 100,
 		  arrows: false,

@@ -298,20 +298,25 @@ button:focus {
 /*=== Featured section ===*/
 
 .mu-header-featured-area {
-	display: flex;
+	display: inline;
 	float: left;
 	width: 100%;
-	align-items: center;
+	padding: 100px 0;
 }
 
 .mu-header-featured-img {
 	display: flex;
 	float: left;
-	height: 755px;
+	height: 455px;
+}
+
+.mu-header-content-area{
+	display: flex;
+	width: 100%;
+	align-items: center;
 }
 
 .mu-header-featured-content {
-	display: inline;
 	float: right;
 	text-align: center;
 }
@@ -872,6 +877,7 @@ button:focus {
 }
 
 .mu-sponsor-logos-slider {
+	transition: height 100tms;
 
 }
 
@@ -1250,9 +1256,9 @@ button:focus {
 		padding: 12px 22px;
 	}
 
-	.mu-header-featured-area {
+	.mu-header-content-area {
 		display: inline;
-		margin-top: 150px;
+		/* margin-top: 150px; */
 	}
 
 	.mu-header-featured-area p {
