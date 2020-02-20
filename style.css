@@ -218,7 +218,7 @@ button:focus {
 /*--------------------*/
 
 #mu-header {
-	background-image: url("assets/images/Geekshacking/community.jpg");
+	background-image: url("assets/images/GeeksHacking/community.jpg");
 	display: inline;
 	float: left;
 	width: 100%;
@@ -645,7 +645,6 @@ button:focus {
 
 
 #mu-video {
-	background-image: url("assets/images/video-bg.jpeg");
 	background-attachment: fixed;
 	background-position: center center;
 	-webkit-background-size: cover;
@@ -893,7 +892,7 @@ button:focus {
 /*--------------------*/
 
 #mu-download {
-	background-image: url("assets/images/Geekshacking/hackomania_blur.jpg");
+	background-image: url("assets/images/GeeksHacking/hackomania_blur.jpg");
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
