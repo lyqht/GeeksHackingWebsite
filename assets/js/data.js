@@ -113,7 +113,7 @@ var content = "";
 for (var index in data.events) {
     let event = data.events[index]; 
     let name = event.name;
-    let src = "assets/images/Geekshacking/Events/" + name + "/banner.jpg";
+    let src = "assets/images/GeeksHacking/Events/" + name + "/banner.jpg";
     content += "<div class=\"mu-single-screeshot\"><img src=\"" + src + "\" alt=\"App screenshot img\"></div>";
 
     if (name == data.upcoming.name) {
